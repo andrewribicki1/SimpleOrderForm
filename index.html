@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <link rel="stylesheet" href="styles.css"> 	 <!-- links stylesheet -->
+	<h1>JS Order Form</h1> <!-- Heading -->
+</head>
+<body>
+
+<script src="script.js"> <!--links js -->
+</script>
+
+<div align="center">	
+<form id="myForm">
+ <fieldset>
+  <legend>Personal Information:</legend>                       <!-- first Form with first and last name-->
+ First Name: <input type="text" id="field1" name="fname"><br><br>
+ Last Name: <input type="text" id="field2" name="lname"><br>
+
+ </fieldset>
+</form>
+</div>
+<br>
+<table style="width:100%">
+		<table align="right">         <!-- Setting table constraints-->
+		<table border="1">	
+  <tr>
+    <td>Product</td>
+    <td>Price</td>		
+    
+  </tr>
+  <tr>
+    <td>Widget 1</td>            <!-- table contents-->
+    <td>$5</td>		
+    
+  </tr>
+  <tr>
+    <td>Widget 2</td>
+    <td>$10</td>		
+    
+  </tr>
+</table>
+<br>
+<div align="center">
+<form id="myForm1">                                                 <!-- form 2-->
+ <fieldset>
+  <legend>Order Info:</legend>							<!-- form 2 with price and quanitity-->
+  Price   : <input type="text" id="field3" name="pname"><br><br>
+  Quantity: <input type="text" id="field4" name="qname"><br>
+</div>
+ </fieldset>
+</form>
+<div align="center">
+<input type="button" onclick="myFunction();myFunction2();" value="Clear">     <!-- submit and clear buttons-->
+<input type="button" onclick="myFunction1()" value="Order">
+</div>
+
+
+
+</body>
+</html>
