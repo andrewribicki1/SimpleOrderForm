@@ -1,0 +1,24 @@
+h1 {
+    text-align: center;  /* center header */
+}
+
+form {
+	
+  
+}
+
+table {
+	width:250px;		/* sets table constraints and centers */
+	margin: 0 auto;
+	text-align: center;
+}
+
+fieldset {
+	
+	width: 400px;
+	
+	}
+	
+	body {
+    background-color: lightblue;   /*changes background color */
+}
